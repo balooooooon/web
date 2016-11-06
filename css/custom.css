@@ -1,0 +1,96 @@
+body {
+	font-family: 'Open Sans', 'Source Sans Pro', sans-serif;
+}
+section {
+	padding: 40px 0;
+}
+.banner {
+	height: 600px;
+}
+.header_name {
+	display: none;
+}
+.scroll .header_name {
+	display: block;
+	font-size: 1.7em;
+}
+.highlighted_section {
+	background: #F2F2F2;
+}
+#about_project {
+	padding-top: 0;
+}
+.details p {
+	font-weight: 300;
+	color: #777;
+}
+.low-priority {
+	opacity: .75;
+}
+.container {
+	max-width: 960px;
+}
+.features img {
+	margin: 0;
+}
+.features i.fa {
+	cursor: default;
+}
+.features .feature:hover i.fa {
+    color: #fff;
+    background: #008DD5;
+}
+.btn {
+	padding: 6px 11px;
+}
+.calendar {
+	table-layout: fixed;
+}
+.calendar td {
+	width: 14.777%;
+	text-align: center;
+	height: 80px;
+	line-height: 20px;
+	background: #fff;
+}
+.calendar .out_of_month {
+	background: #eee;
+}
+h2 {
+	margin-top: 20px;
+}
+a.list-group-item {
+	color: #337ab7;
+}
+.member {
+	position: relative;
+	margin: 15px 0;
+	background-size: cover;
+	background-position: center center;
+	border-radius: 50%;
+}
+.member:before {
+	content: "";
+	display: block;
+	position: relative;
+	padding-top: 100%;
+}
+.member__text {
+	position: absolute;
+	top: 70px;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	text-align: center;
+	height: 20px;
+	line-height: 28px;
+	font-size: 22px;
+	color: #fff;
+	font-weight: 600;
+	text-shadow: 0 1px 3px rgba(0,0,0,.65);
+}
+.contact {
+	height: auto;
+	padding-bottom: 30px;
+}
