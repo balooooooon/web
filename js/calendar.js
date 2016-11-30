@@ -55,5 +55,5 @@ $(document).ready(function(){
 		calendar__set_month(this.dataset.date);
 	})
 	
-	calendar__set_month($(".calendar__month-change")[0].dataset.date);
+	calendar__set_month((new Date).getUTCFullYear()+'-'+((new Date).getMonth()+1));
 });
